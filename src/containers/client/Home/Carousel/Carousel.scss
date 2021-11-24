@@ -1,0 +1,373 @@
+.Sliders__search {
+    position: absolute;
+
+    top: 230px;
+    .search__by__job {
+        max-width: 80%;
+        margin: 0 auto;
+        .ant-input-affix-wrapper-lg {
+            width: 550px;
+            height: 54px;
+        }
+        .ant-input-search-button {
+            height: 54px;
+            background-color: rgb(64, 208, 105);
+            width: 110px;
+            border: none;
+        }
+    }
+
+    .Sliders__search__item {
+        // max-width: 80%;
+        margin-left: 64px; // margin: 0 auto;
+        span {
+            color: white;
+            font-size: 47px;
+            font-weight: bold;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .Sliders {
+        position: relative;
+        img {
+            width: 100%;
+        }
+    }
+
+    .Sliders__search {
+        position: absolute;
+        top: 200px;
+
+        .ant-input-affix-wrapper-lg {
+            width: 480px;
+            height: 59px;
+        }
+        .ant-input-search-button {
+            height: 59px;
+            background-color: rgb(9, 74, 27);
+            width: 70px;
+            border: none;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .carousel__content {
+        .carousel__images {
+            .images__item {
+                img {
+                    height: 500px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .Sliders__search {
+        left: 24px;
+        position: absolute;
+        top: 150px;
+        .ant-input-affix-wrapper-lg {
+            width: 430px !important;
+            height: 55px;
+        }
+        .ant-input-search-button {
+            height: 55px;
+            background-color: rgb(21, 186, 68);
+            width: 100px;
+            border: none;
+        }
+        .Sliders__search__item {
+            h1 {
+                color: white;
+                font-size: 45px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel__content {
+        .carousel__images {
+            .images__item {
+                img {
+                    height: 300px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .Sliders__search {
+        position: absolute;
+        top: 10px;
+        left: 30px;
+        .ant-space-vertical {
+            margin-top: 50px;
+        }
+        .ant-input-affix-wrapper-lg {
+            width: 300px !important;
+            height: 59px;
+        }
+        .ant-input-search-button {
+            height: 59px;
+            background-color: rgb(9, 74, 27);
+            width: 70px;
+            border: none;
+        }
+        .Sliders__search__item {
+            margin-left: 25px !important;
+            span {
+                color: white;
+                font-size: 35px !important;
+                font-weight: bold;
+            }
+        }
+    }
+}
+@media (max-width: 576px) {
+    .carousel__content {
+        .carousel__images {
+            .images__item {
+                img {
+                    height: 250px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .Sliders__search {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        .Sliders__search__item {
+            h1 {
+                font-size: 30px;
+            }
+        }
+        .ant-input-affix-wrapper-lg {
+            width: 350px;
+            height: 50px;
+        }
+        .ant-input-search-button {
+            height: 50px;
+            background-color: rgb(9, 74, 27);
+            width: 70px;
+            border: none;
+        }
+        .Sliders__search__item {
+            h1 {
+                color: white;
+                font-size: 19px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+@media (max-width: 490px) {
+    .carousel__content {
+        .carousel__images {
+            .images__item {
+                img {
+                    height: 250px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .Sliders__search {
+        top: 10px;
+        left: 20px;
+        .ant-input-affix-wrapper-lg {
+            width: 250px !important;
+            height: 45px;
+        }
+        .ant-input-search-button {
+            height: 45px;
+            background-color: rgb(81, 213, 118);
+            width: 69px !important;
+            border-right: 20px;
+        }
+        .Sliders__search__item {
+            span {
+                color: white;
+                font-size: 24px !important;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.Sliders__bottom {
+    background-color: #c2aeae1f;
+    height: 100px;
+    margin-top: -4px;
+    .Sliders__bottom__item {
+        padding-top: 27px;
+        font-size: 20px;
+        font-weight: bold;
+        color: rgba(68, 60, 51, 0.387);
+    }
+}
+
+.carousel__content {
+    .carousel__images {
+        .images__item__trangti {
+            img {
+                width: 110%;
+                height: 700px;
+                display: block;
+            }
+        }
+        .images__item__bantay {
+            img {
+                width: 100%;
+                height: 700px;
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .carousel__content {
+        .carousel__images {
+            .images__item {
+                img {
+                    height: 250px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .Sliders__search {
+        top: 10px;
+        left: 20px;
+        .ant-input-affix-wrapper-lg {
+            width: 200px !important;
+            height: 45px;
+        }
+        .ant-input-search-button {
+            height: 45px;
+            background-color: rgb(81, 213, 118);
+            width: 69px !important;
+            border-right: 20px;
+        }
+        .Sliders__search__item {
+            span {
+                color: white;
+                font-size: 20px !important;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.Sliders__bottom {
+    background-color: #c2aeae1f;
+    height: 100px;
+    margin-top: -4px;
+    .Sliders__bottom__item {
+        padding-top: 27px;
+        font-size: 20px;
+        font-weight: bold;
+        color: rgba(68, 60, 51, 0.387);
+    }
+}
+
+.carousel__content {
+    .carousel__images {
+        .images__item__trangti {
+            img {
+                width: 110%;
+                height: 700px;
+                display: block;
+            }
+        }
+        .images__item__bantay {
+            img {
+                width: 100%;
+                height: 700px;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 352px) {
+    .carousel__content {
+        .carousel__images {
+            .images__item {
+                img {
+                    height: 500px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .Sliders__search {
+        left: 0px !important;
+        position: absolute;
+        top: 15px !important;
+        .ant-input-affix-wrapper-lg {
+            width: 200px !important;
+            height: 55px;
+        }
+        .ant-input-search-button {
+            height: 55px;
+            background-color: rgb(21, 186, 68);
+            width: 100px;
+            border: none;
+        }
+        .Sliders__search__item {
+            span {
+                color: white;
+                font-size: 32px !important;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 300px) {
+    .carousel__content {
+        .carousel__images {
+            .images__item {
+                img {
+                    height: 500px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .Sliders__search {
+        left: 0px !important;
+        position: absolute;
+        top: 15px !important;
+        .ant-input-affix-wrapper-lg {
+            width: 100px !important;
+            height: 55px;
+        }
+        .ant-input-search-button {
+            height: 55px;
+            background-color: rgb(21, 186, 68);
+            width: 100px !important;
+            border: none;
+        }
+        .Sliders__search__item {
+            span {
+                color: white;
+                font-size: 30px !important;
+                font-weight: bold;
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.login {
+    background-color: #28a74514;
+    height: 800px;
+    .login__content {
+        max-width: 80%;
+        margin: 0 auto;
+        .ant-form-horizontal {
+            margin-top: 200px;
+            width: 500px;
+            background-color: white;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-bottom: 130px;
+            height: 500px;
+        }
+        .login__form__item {
+            margin-top: 70px;
+        }
+    }
+    .thongbao {
+        font-size: 17px;
+        font-weight: bold;
+        color: black;
+    }
+    .login-form-button {
+        margin-top: 50px;
+        width: 103px;
+        background: #3d443ecb;
+        color: white;
+        height: 39px;
+        border-radius: 2px;
+        margin-left: 50px;
+    }
+    .ant-input-affix-wrapper {
+        width: 90%;
+        height: 50px;
+        margin-left: 25px;
+    }
+}

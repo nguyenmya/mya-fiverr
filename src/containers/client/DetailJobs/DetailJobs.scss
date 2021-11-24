@@ -1,0 +1,880 @@
+.detailjob {
+    margin-top: 70px;
+    margin-bottom: 170px;
+    .detailjob__right {
+        .minimalist {
+            color: black;
+            font-size: 28px;
+            font-weight: 600;
+            font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+        }
+        .infor {
+            i {
+                font-size: 30px;
+            }
+            .Seller {
+                margin-left: 10px;
+                font-weight: 700;
+                color: #404145;
+            }
+            .Level {
+                color: #ffb33e;
+                font-weight: 500;
+            }
+            .Star {
+                margin-left: 20px;
+                font-size: 16px;
+                color: rgb(255, 187, 0);
+                svg {
+                    margin-right: 7px;
+                    margin-top: -7px;
+                }
+
+                .name {
+                    color: black;
+                    margin-left: 10px;
+                    font-weight: 700;
+                    font-size: 15px;
+                }
+            }
+        }
+        hr {
+            width: 90%;
+        }
+        .exceptional {
+            img {
+                margin-left: -8px;
+            }
+            .People {
+                font-weight: 500;
+            }
+        }
+        .img__job {
+            img {
+                width: 80%;
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+// // // /// tabs
+.detailjob__tabs {
+    .tabs1 {
+        border-right: 1px solid #00000021;
+        background: #6c757d14;
+        border-bottom: 1px solid #00000021;
+        width: 33.33%;
+        height: 57px;
+        border-left: 1px solid #00000021;
+        border-top: 1px solid #00000021;
+    }
+    .Standard {
+        font-size: 17px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .price {
+        margin-top: 12px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .application {
+        margin-top: 20px;
+        font-size: 15px;
+        margin-left: 7px;
+        font-weight: 500;
+        color: rgb(104, 111, 111);
+        margin-bottom: 20px;
+    }
+    .Files {
+        font-size: 17px;
+        font-weight: bold;
+    }
+}
+
+.detailjob__left {
+    .ant-card-bordered {
+        width: 100%;
+        height: 600px;
+        .ant-card-body {
+            padding: 0;
+        }
+        .detailjobs__check {
+            width: 90%;
+            .checked__jobs {
+                nav {
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+                .ant-btn {
+                    margin-top: 20px;
+                }
+            }
+            button {
+                background-color: #19a463;
+                color: white;
+                span {
+                    font-weight: 600;
+                }
+            }
+            .Compare__package {
+                margin-top: 13px;
+                margin-bottom: 20px;
+                text-align: center;
+                color: #19a463;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.detailjob {
+    p {
+        margin: 0 0 20px;
+        line-height: 1.5;
+        font-weight: 300;
+    }
+
+    .content > div {
+        display: none;
+    }
+    input {
+        display: none;
+    }
+    .tabs1 {
+        font-size: 17px;
+        display: inline-block;
+        padding: 15px 25px;
+        font-weight: 600;
+        // text-align: center;
+    }
+    .tabs1:hover {
+        cursor: pointer;
+        border-bottom: 1px solid transparent;
+        transition: all 0.3s ease-out 0.1s;
+    }
+    input:checked + label {
+        background: #ffffff;
+        color: green;
+        border-bottom: 3px solid;
+        font-weight: bold;
+    }
+
+    #tab-1:checked ~ .content #content-1,
+    #tab-2:checked ~ .content #content-2,
+    #tab-3:checked ~ .content #content-3,
+    #tab-4:checked ~ .content #content-4 {
+        display: block;
+        animation-name: inUp;
+        animation-timing-function: ease-in-out;
+        animation-duration: 0.6s;
+    }
+
+    @media screen and (max-width: 400px) {
+        label {
+            padding: 15px 10px;
+        }
+    }
+
+    @keyframes inUp {
+        0% {
+            opacity: 0;
+            transform: translateY(100px);
+        }
+        90% {
+            transform: translateY(-10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}
+//commented
+.comment {
+    .noidung__job {
+        margin-left: 10px;
+        h5 {
+            font-weight: 700;
+            line-height: 28px;
+        }
+        h6 {
+            color: #19a463;
+        }
+        .hello {
+            font-size: 17px;
+            max-width: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .content {
+            font-size: 16px;
+            font-weight: 400;
+        }
+        .offer {
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        .information_detailjob {
+            ul {
+                li {
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+        }
+       
+        .satisfied {
+            font-weight: 700;
+            color: #1dbf73;
+            font-weight: 600;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            font-size: 20px;
+        }
+        hr {
+            width: 600px;
+            margin-left: 10px;
+        }
+        .comment__bottom {
+            .Programming,
+            .Expertise {
+                font-size: 17px;
+                font-weight: 500;
+                color: #4041456e;
+                margin-bottom: 10px;
+            }
+            .php,
+            .Cross__Browser {
+                font-size: 17px;
+            }
+        }
+       
+    }
+    .about {
+        font-weight: 900;
+        font-size: 20px;
+    }
+    margin-top: 100px;
+}
+
+.user__comment {
+    margin-top: 50px;
+    .comment__user__name {
+        max-width: 90%;
+        margin: 0 auto;
+        .user__comment {
+            width: 5%;
+            float: left;
+            margin-top: -2px;
+        }
+        .noidung__comment {
+            width: 90%;
+            float: left;
+            span {
+                font-weight: 600;
+                font-size: 22px;
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
+.contact__user {
+    max-width: 90%;
+    margin: 0 auto;
+    .img__user__contact {
+        float: left;
+        width: 10%;
+        img {
+            width: 90%;
+            position: relative;
+
+            display: block;
+            border-radius: 50%;
+            margin-left: -20px;
+            margin-top: 20px;
+        }
+    }
+    .thongtin {
+        float: left;
+        width: 80%;
+        .nofilrazzaq {
+            margin-top: 5px;
+            font-weight: 700;
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+        .online {
+            padding: 3px 7px 3px 3px;
+            font-size: 15px;
+            font-weight: none;
+            border: 1px solid #1dbf73;
+            color: #1dbf73;
+            text-transform: capitalize;
+            border-radius: 13px;
+        }
+        .Web__Developer {
+            font-weight: 400;
+        }
+
+        .Star__comment {
+            margin-left: -10px;
+            color: #ffb33e;
+            font-size: 15px;
+            margin-top: 10px;
+            svg {
+                margin-top: -10px;
+                margin-right: 4px;
+            }
+        }
+        button {
+            font-weight: 700;
+            background: white;
+            border: 1px solid;
+            width: 132px;
+            padding-top: 8px;
+            padding-bottom: 11px;
+            margin-top: 10px;
+            border-radius: 2px;
+            font-size: 14px;
+        }
+        hr {
+            margin-top: 50px;
+        }
+    }
+}
+
+.Detailjob__checkout {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.detail__item1 {
+    float: left;
+    width: 70%;
+}
+.detail__item2 {
+    float: left;
+    width: 30%;
+}
+@media (max-width: 1510px) {
+    .Detailjob__checkout {
+        max-width: 95% !important;
+        margin: 0 auto;
+    }
+
+    .detail__item1 {
+        float: left;
+        width: 70%;
+    }
+    .detail__item2 {
+        float: left;
+        width: 30%;
+    }
+}
+
+@media (max-width: 992px) {
+    .contact__user {
+        max-width: 90%;
+        margin: 0 auto;
+        .img__user__contact {
+            float: left;
+            width: 15% !important;
+            img {
+                width: 90%;
+                position: relative;
+
+                display: block;
+                border-radius: 50%;
+                margin-left: -20px;
+                margin-top: 20px;
+            }
+        }
+        .thongtin {
+            float: left;
+            width: 80%;
+            .nofilrazzaq {
+                margin-top: 5px;
+                font-weight: 700;
+                font-size: 18px;
+                letter-spacing: 1px;
+            }
+            .online {
+                padding: 3px 7px 3px 3px;
+                font-size: 15px;
+                font-weight: none;
+                border: 1px solid #1dbf73;
+                color: #1dbf73;
+                text-transform: capitalize;
+                border-radius: 13px;
+            }
+            .Web__Developer {
+                font-weight: 400;
+            }
+
+            .Star__comment {
+                margin-left: -10px;
+                color: #ffb33e;
+                font-size: 15px;
+                margin-top: 10px;
+                svg {
+                    margin-top: -10px;
+                    margin-right: 4px;
+                }
+            }
+            button {
+                font-weight: 700;
+                background: white;
+                border: 1px solid;
+                width: 132px;
+                padding-top: 8px;
+                padding-bottom: 11px;
+                margin-top: 10px;
+                border-radius: 2px;
+                font-size: 14px;
+            }
+            hr {
+                margin-top: 50px;
+            }
+        }
+    }
+    .user__comment {
+        margin-top: 50px;
+        .comment__user__name {
+            max-width: 90%;
+            margin: 0 auto;
+            .user__comment {
+                width: 7% !important;
+                float: left;
+                margin-top: -2px;
+            }
+            .noidung__comment {
+                width: 90%;
+                float: left;
+                span {
+                    font-weight: 600;
+                    font-size: 22px;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .detailjob {
+        .detailjob__right {
+            .img__job {
+                img {
+                    width: 100% !important;
+                    margin-top: 30px;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+
+    .contact__user {
+        max-width: 90%;
+        margin: 0 auto;
+        .img__user__contact {
+            float: left;
+            width: 20% !important;
+            img {
+                width: 100%;
+                position: relative;
+
+                display: block;
+                border-radius: 50%;
+                margin-left: -20px;
+                margin-top: 20px;
+            }
+        }
+        .thongtin {
+            float: left;
+            width: 80%;
+            .nofilrazzaq {
+                margin-top: 5px;
+                font-weight: 700;
+                font-size: 18px;
+                letter-spacing: 1px;
+            }
+            .online {
+                padding: 3px 7px 3px 3px;
+                font-size: 15px;
+                font-weight: none;
+                border: 1px solid #1dbf73;
+                color: #1dbf73;
+                text-transform: capitalize;
+                border-radius: 13px;
+            }
+            .Web__Developer {
+                font-weight: 400;
+            }
+
+            .Star__comment {
+                margin-left: -10px;
+                color: #ffb33e;
+                font-size: 15px;
+                margin-top: 10px;
+                svg {
+                    margin-top: -10px;
+                    margin-right: 4px;
+                }
+            }
+            button {
+                font-weight: 700;
+                background: white;
+                border: 1px solid;
+                width: 132px;
+                padding-top: 8px;
+                padding-bottom: 11px;
+                margin-top: 10px;
+                border-radius: 2px;
+                font-size: 14px;
+            }
+            hr {
+                margin-top: 50px;
+            }
+        }
+    }
+    .user__comment {
+        margin-top: 50px;
+        .comment__user__name {
+            max-width: 90%;
+            margin: 0 auto;
+            .user__comment {
+                width: 10% !important;
+                float: left;
+                margin-top: -2px;
+            }
+            .noidung__comment {
+                width: 90%;
+                float: left;
+                span {
+                    font-weight: 600;
+                    font-size: 22px;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .user__comment {
+        margin-top: 50px;
+        .comment__user__name {
+            max-width: 90%;
+            margin: 0 auto;
+            .user__comment {
+                width: 13% !important;
+                float: left;
+                margin-top: -2px;
+            }
+            .noidung__comment {
+                width: 90%;
+                float: left;
+                span {
+                    font-weight: 600;
+                    font-size: 22px;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 506px) {
+    .contact__user {
+        max-width: 50% !important;
+        margin: 0 auto;
+        .img__user__contact {
+            float: left;
+            width: 70% !important;
+            img {
+                width: 100%;
+                position: relative;
+
+                display: block;
+                border-radius: 50%;
+                margin-left: -20px;
+                margin-top: 20px;
+            }
+        }
+        .thongtin {
+            float: left;
+            width: 30%;
+            .nofilrazzaq {
+                font-size: 15px !important;
+            }
+            .online {
+                padding: 3px 7px 3px 3px;
+                font-size: 15px !important;
+                font-weight: none;
+                border: 1px solid #1dbf73;
+                color: #1dbf73;
+                text-transform: capitalize;
+                border-radius: 13px;
+            }
+            .Web__Developer {
+                font-weight: 400;
+            }
+
+            .Star__comment {
+                margin-left: -10px;
+                color: #ffb33e;
+                font-size: 15px !important;
+                margin-top: 10px;
+                svg {
+                    margin-top: -10px;
+                    margin-right: 4px;
+                }
+            }
+            button {
+                font-weight: 700;
+                background: white;
+                border: 1px solid;
+                width: 132px;
+                padding-top: 8px;
+                padding-bottom: 11px;
+                margin-top: 10px;
+                border-radius: 2px;
+                font-size: 14px;
+            }
+            hr {
+                margin-top: 50px;
+            }
+        }
+    }
+    .contact__user {
+        max-width: 90%;
+        margin: 0 auto;
+        .img__user__contact {
+            float: left;
+            width: 35% !important;
+            img {
+                width: 100%;
+                position: relative;
+
+                display: block;
+                border-radius: 50%;
+                margin-left: -20px;
+                margin-top: 20px;
+            }
+        }
+        .thongtin {
+            float: left;
+            width: 60%;
+            .nofilrazzaq {
+                margin-top: 5px;
+                font-weight: 700;
+                font-size: 18px;
+                letter-spacing: 1px;
+            }
+            .online {
+                padding: 3px 7px 3px 3px;
+                font-size: 15px;
+                font-weight: none;
+                border: 1px solid #1dbf73;
+                color: #1dbf73;
+                text-transform: capitalize;
+                border-radius: 13px;
+            }
+            .Web__Developer {
+                font-weight: 400;
+            }
+
+            .Star__comment {
+                margin-left: -10px;
+                color: #ffb33e;
+                font-size: 15px;
+                margin-top: 10px;
+                svg {
+                    margin-top: -10px;
+                    margin-right: 4px;
+                }
+            }
+            button {
+                font-weight: 700;
+                background: white;
+                border: 1px solid;
+                width: 132px;
+                padding-top: 8px;
+                padding-bottom: 11px;
+                margin-top: 10px;
+                border-radius: 2px;
+                font-size: 14px;
+            }
+            hr {
+                margin-top: 50px;
+            }
+        }
+    }
+    .user__comment {
+        margin-top: 50px;
+        .comment__user__name {
+            max-width: 90%;
+            margin: 0 auto;
+            .user__comment {
+                width: 15% !important;
+                float: left;
+                margin-top: -2px;
+            }
+            .noidung__comment {
+                width: 90%;
+                float: left;
+                span {
+                    font-weight: 600;
+                    font-size: 22px;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 336px) {
+    .contact__user {
+        max-width: 80% !important;
+        margin: 0 auto;
+        .img__user__contact {
+            float: left;
+            width: 50% !important;
+            img {
+                width: 100%;
+                position: relative;
+
+                display: block;
+                border-radius: 50%;
+                margin-left: -20px;
+                margin-top: 20px;
+            }
+        }
+        .thongtin {
+            float: left;
+            width: 50%;
+            .nofilrazzaq {
+                font-size: 15px !important;
+            }
+            .online {
+                padding: 3px 7px 3px 3px;
+                font-size: 15px !important;
+                font-weight: none;
+                border: 1px solid #1dbf73;
+                color: #1dbf73;
+                text-transform: capitalize;
+                border-radius: 13px;
+            }
+            .Web__Developer {
+                font-weight: 400;
+            }
+
+            .Star__comment {
+                margin-left: -10px;
+                color: #ffb33e;
+                font-size: 15px !important;
+                margin-top: 10px;
+                svg {
+                    margin-top: -10px;
+                    margin-right: 4px;
+                }
+            }
+            button {
+                font-weight: 700;
+                background: white;
+                border: 1px solid;
+                width: 132px;
+                padding-top: 8px;
+                padding-bottom: 11px;
+                margin-top: 10px;
+                border-radius: 2px;
+                font-size: 14px;
+            }
+            hr {
+                margin-top: 50px;
+            }
+        }
+    }
+    .user__comment {
+        margin-top: 50px;
+        .comment__user__name {
+            max-width: 90%;
+            margin: 0 auto;
+            .user__comment {
+                width: 19% !important;
+                float: left;
+                margin-top: -2px;
+            }
+            .noidung__comment {
+                width: 90%;
+                float: left;
+                span {
+                    font-weight: 600;
+                    font-size: 22px;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+
+    .contact__user {
+        img {
+            position: relative;
+            width: 90% !important;
+            height: 70%;
+            display: block;
+            border-radius: 50%;
+            margin-left: -20px;
+            margin-top: 20px;
+        }
+
+        .nofilrazzaq {
+            margin-top: 5px;
+            font-weight: 700;
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+        .online {
+            padding: 3px 7px 3px 3px;
+            font-size: 15px;
+            font-weight: none;
+            border: 1px solid #1dbf73;
+            color: #1dbf73;
+            text-transform: capitalize;
+            border-radius: 13px;
+        }
+        .Web__Developer {
+            font-weight: 400;
+        }
+
+        .Star__comment {
+            margin-left: -10px;
+            color: #ffb33e;
+            font-size: 15px;
+            margin-top: 10px;
+            svg {
+                margin-top: -10px;
+                margin-right: 4px;
+            }
+        }
+        button {
+            font-weight: 700;
+            background: white;
+            border: 1px solid;
+            width: 132px;
+            padding-top: 8px;
+            padding-bottom: 11px;
+            margin-top: 10px;
+            border-radius: 2px;
+            font-size: 14px;
+        }
+        hr {
+            margin-top: 50px;
+        }
+    }
+}

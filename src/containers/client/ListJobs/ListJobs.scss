@@ -1,0 +1,338 @@
+.col-sm-3 {
+  padding: 0;
+}
+
+.list-jobs {
+  color: #62646a;
+  .related-search {
+    width: 100%;
+    padding: 0;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #dadbdd;
+    .layout-row {
+      max-width: 1400px;
+      flex: 0 1 auto;
+      align-items: center;
+      margin: 0;
+      flex-wrap: nowrap;
+      overflow: hidden;
+      height: 56px;
+      margin: 0 auto;
+      padding: 0 32px;
+      b {
+        font-size: 15px;
+        margin: auto 0;
+        padding: 0 10px;
+      }
+      .search-tags {
+        a {
+          box-sizing: border-box;
+          background-color: #fff;
+          font-size: 13px;
+          color: #62646a;
+          display: inline-block;
+          border: 1px solid #dadbdd;
+          padding: 5px 10px;
+          margin: 15px 10px 15px 0;
+          border-radius: 3px;
+          line-height: 100%;
+          &:hover {
+            background-color: #efeff0;
+            color: #62646a;
+            border: 1px solid #95979d;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+  .header-wrapper {
+    max-width: 1400px;
+    align-items: center;
+    margin: 0;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 32px 32px 12px;
+    .title {
+      color: #000;
+      font-size: 32px;
+      line-height: 150%;
+      font-weight: 700;
+    }
+  }
+  .topbar {
+    min-height: 70px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    .topbar-floating {
+      padding: 0 32px;
+      max-width: 1400px;
+      margin: 0 auto;
+      align-items: center;
+      justify-content: space-between;
+      .top-filters {
+        margin-top: 17px;
+        align-items: center;
+        .floating-menu-filter {
+          position: static;
+          display: inline;
+          button {
+            margin: 0 6px;
+            color: #222325;
+            font-size: 16px;
+            font-weight: 550;
+            border: 1px solid #dadbdd;
+            border-radius: 4px;
+            text-decoration: none;
+            padding: 10px 12px;
+            background: none;
+            line-height: 16px;
+            &::after {
+              content: url(../../../assets/images/chevron-down-solid.svg);
+              display: inline-block;
+              color: inherit;
+              position: relative;
+              width: 12px;
+              top: 1px;
+              margin-left: 12px;
+            }
+          }
+        }
+      }
+    }
+    .togglers-wrapper {
+      margin-top: 17px;
+      .tooltip-toggler-wrapper {
+        align-items: center;
+        margin-right: 32px;
+        &:last-child {
+          margin-right: 0;
+        }
+        .toggler-wrapper {
+          align-items: center;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 140%;
+          label {
+            margin-top: 7px;
+            margin-right: 10px;
+            margin-bottom: 0;
+            input {
+              display: none;
+            }
+            span {
+              height: 18px;
+              width: 31px;
+              display: inline-block;
+              position: relative;
+              border-radius: 999px;
+              background-color: #dadbdd;
+              cursor: pointer;
+              &::after {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 2px;
+                left: 2px;
+                width: 14px;
+                height: 14px;
+                border-radius: 50%;
+                background: #fff;
+                box-shadow: 0 2px 6px rgb(34 35 37 / 10%);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .top-secondary {
+    max-width: 1400px;
+    padding: 0 32px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    .results-infor {
+      color: #7a7d85;
+      font-size: 14px;
+      line-height: 22px;
+      font-weight: 600;
+      padding: 0 10px;
+    }
+    .sort-by-wrapper {
+      display: inline-block;
+      font-size: 16px;
+      line-height: 120%;
+      font-weight: 700;
+      .pre-title {
+        font-weight: 400;
+      }
+      .floating-menu {
+        position: relative;
+        margin: 0 6px;
+        display: inline-block;
+        padding: 10px 0;
+        .menu-title {
+          color: #222325;
+          cursor: pointer;
+          &::after {
+            content: url(../../../assets/images/chevron-down-solid.svg);
+            display: inline-block;
+            color: inherit;
+            position: relative;
+            width: 12px;
+            top: 3 px;
+            margin-left: 12px;
+          }
+        }
+      }
+    }
+  }
+  .content-row {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 32px;
+    .content {
+      width: 100%;
+      .listing-container {
+        width: 100%;
+        .card-layout {
+          flex: 1 1 25%;
+          min-height: 370px;
+          padding: 16px;
+          width: 100%;
+          min-width: 245px;
+          justify-content: space-between;
+          .card-wrapper {
+            background-color: #fff;
+            position: relative;
+            border: 1px solid #e4e5e7;
+            width: 100%;
+            .seller-info {
+              line-height: 120%;
+              padding: 12px 12px 8px;
+              height: 54px;
+              width: 100%;
+              align-items: center;
+              justify-content: flex-start;
+              .seller-image {
+                img {
+                  width: 24px;
+                  height: 24px;
+                  border-radius: 50%;
+                }
+              }
+              .seller-identifiers {
+                margin-left: 8px;
+                .seller-name {
+                  a {
+                    color: #222325;
+                    &:hover {
+                      text-decoration: underline;
+                    }
+                  }
+                }
+                .seller-level {
+                  color: #b5b6ba;
+                  font-weight: 500;
+                }
+              }
+            }
+            .seller-title {
+              font-size: 18px;
+              line-height: 140%;
+              a {
+                display: block;
+                color: #222325;
+                line-height: 22px;
+                font-weight: 500;
+                height: 43px;
+                padding: 0 12px 5px;
+                margin-top: 5px;
+                &:hover {
+                  color: #1dbf73;
+                }
+              }
+            }
+            .content-info {
+              padding: 10px 12px;
+              .rating-wrapper {
+                color: #ffbe5b;
+                font-weight: 700;
+                svg {
+                  width: 15px;
+                  height: 15px;
+                  margin-right: 5px;
+                  vertical-align: -0.16em;
+                }
+                span {
+                  color: #b5b6ba;
+                  font-weight: 400;
+                  margin-left: 2px;
+                }
+              }
+            }
+            .seller-footer {
+              align-items: center;
+              border-top: 1px solid #efeff0;
+              justify-content: space-between;
+              padding: 10px 12px;
+              .icon-heart {
+                fill: #b5b6ba;
+                cursor: pointer;
+              }
+              .price {
+                font-size: 18px;
+                line-height: 20px;
+                margin-top: 1px;
+                color: #404145;
+                text-align: right;
+                small {
+                  color: #7a7d85;
+                  font-size: 10px;
+                  font-weight: 700;
+                  letter-spacing: 0.5px;
+                  text-transform: uppercase;
+                  display: inline-block;
+                  vertical-align: top;
+                  padding: 2px 0 0;
+                  line-height: 20px;
+                }
+                span {
+                  padding-left: 6px;
+                  color: #404145;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .page-pagination {
+      width: 100%;
+      margin: 32px 0;
+      justify-content: center;
+      align-items: center;
+      .page-number {
+        display: block;
+        margin: 5px;
+        border: 1px solid #c5c6c9;
+        text-align: center;
+        min-height: 15px;
+        cursor: pointer;
+        padding: 6px 8px;
+        a {
+          display: block;
+          color: #222325;
+          font-size: 15px;
+          line-height: 18px;
+          height: 18px;
+          width: 18px;
+        }
+      }
+    }
+  }
+}

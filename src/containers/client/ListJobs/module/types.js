@@ -1,0 +1,2 @@
+export const SET_LIST_JOBS = "SET_LIST_JOBS";
+export const SET_LIST_JOBS_BY_SUB_TYPE = "SET_LIST_JOBS_BY_SUB_TYPE";

@@ -1,0 +1,61 @@
+.Selling {
+  margin-top: 100px;
+  padding-top: 60px;
+  background-color: hsla(138, 77%, 9%, 0.027);
+  padding-bottom: 40px;
+  .Selling__big {
+    max-width: 92%;
+    .Selling__left {
+      h1 {
+        font-size: 39px;
+        font-weight: bold;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      .Selling__content__budget {
+        margin-bottom: 20px;
+        i {
+          color: rgba(28, 135, 53, 0.408);
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        }
+        span {
+          margin-left: 10px;
+          font-size: 20px;
+          font-weight: 600;
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        }
+        .Selling__infor {
+          span {
+            font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+              sans-serif;
+            font-size: 17px;
+            color: rgba(0, 0, 0, 0.245);
+          }
+        }
+      }
+    }
+    .Selling__right {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 776px) {
+  .Selling__right {
+    img {
+      width: 50%;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .Selling__right {
+    img {
+      width: 50%;
+    }
+  }
+}

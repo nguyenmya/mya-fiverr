@@ -1,0 +1,1 @@
+export const SET_LIST_TYPE_JOBS = 'SET_LIST_TYPE_JOBS';

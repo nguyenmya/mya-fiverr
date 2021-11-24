@@ -1,0 +1,1 @@
+export const SET_TYPE_JOB_DETAIL = "SET_TYPE_JOB_DETAIL";
