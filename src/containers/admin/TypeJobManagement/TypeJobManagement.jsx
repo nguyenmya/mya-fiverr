@@ -23,28 +23,27 @@ export default function TypeJobManagement() {
       dataIndex: "name",
       sorter: (a, b) => a.name - b.name,
     },
-    {
-      title: "subTypeJobs",
-      key: "subTypeJobs",
-      width: 500,
-      render: () => (
-        <span>
-          <Badge status="success" />
-          {listTypeJob?.map((mia, index) => {
-            return (
-              <div key={index}>
-                {mia.subTypeJobs?.map((itemJob, index) => {
-                  return (
-                    <div></div>
-                    // <div key={index} style={{width: 500}}>{itemJob.name}</div>
-                  );
-                })}
-              </div>
-            );
-          })}
-        </span>
-      ),
-    },
+    // {
+    //   title: "subTypeJobs",
+    //   key: "subTypeJobs",
+    //   width: 500,
+    //   render: () => (
+    //     <span>
+    //       <Badge status="success" />
+    //       {listTypeJob?.map((mia, index) => {
+    //         return (
+    //           <div key={index}>
+    //             {/* {mia.subTypeJobs?.map((itemJob, index) => {
+    //               return (
+    //                 <div></div>
+    //               );
+    //             })} */}
+    //           </div>
+    //         );
+    //       })}
+    //     </span>
+    //   ),
+    // },
 
     {
       title: "Action",

@@ -36,7 +36,7 @@ export default function SubJobManagement() {
       title: "Action",
       render: (text, job) => {
         return (
-          <Fragment>
+          <Fragment key={text}>
             <NavLink
               to={`/admin/subjob-management/edit-subjob/${job._id}`}
               className="mr-3 text-success"

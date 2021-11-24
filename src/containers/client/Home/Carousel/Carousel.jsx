@@ -1,5 +1,5 @@
 import React from 'react'
-import {  useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import "./Carousel.scss"
 import { Input, Space } from 'antd';
 import { useHistory } from 'react-router-dom'

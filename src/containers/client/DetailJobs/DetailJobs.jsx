@@ -143,7 +143,6 @@ export default function DetailJobs(props) {
                           </nav>
                           <Button
                             onClick={() => {
-
                               dispatch(
                                 actDatCongViec(props.match.params.jobId, currentUser?.token)
                               );

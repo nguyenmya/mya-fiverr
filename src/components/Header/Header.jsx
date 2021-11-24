@@ -140,7 +140,32 @@ export default function Header(props) {
                 Become a Seller
               </a>
             </li>
-            <li className="nav-item hh">
+            <li className="nav-item">
+              {currentUser == null ? (
+                <Link to="/login" className="nav-link nav-link--btn">
+                  Join
+                </Link>
+              ) : (
+                <div>
+                  <Link
+                    className="dropdown-item"
+                    href="..."
+                    to={`/login/${currentUser.user._id}`}
+                  >
+                    Profile
+                  </Link>
+                  <Link
+                    className="dropdown-item"
+                    href="..."
+                    onClick={logOut}
+                    to="/Login"
+                  >
+                    Logout
+                  </Link>
+                </div>
+              )}
+            </li>
+            {/* <li className="nav-item hh">
               {currentUser == null ? (
                 <Link to="/login" className="nav-link nav-link--btn">
                   Join
@@ -150,19 +175,18 @@ export default function Header(props) {
                   <input type="checkbox" id="drop-1" hidden />
                   <label className="dropHeader dropHeader-1" for="drop-1">
                     {detailUser.avatar == null ? (
-                      <span>
+                      <div>
                         <img src="../../images/Market/4.png" alt="" />
-                      </span>
+                      </div>
                     ) : (<div>
                       <img src={detailUser.avatar} alt="" />
-
                     </div>)
                     }
                   </label>
                   <div className="list list-1">
                     <Link
                       className="dropdown-item"
-                      href="#"
+                      href="..."
                       to={`/login/${currentUser.user._id}`}
                     >
                       Profile
@@ -178,7 +202,7 @@ export default function Header(props) {
                   </div>
                 </div>
               )}
-            </li>
+            </li> */}
           </ul>
         </nav>
       </header>
